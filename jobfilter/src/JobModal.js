@@ -30,7 +30,7 @@ export default function JobModal({ job, open, handleClose }) {
                 <DialogTitle id="alert-dialog-slide-title">
                     {job.title}
                     {job.company}
-                    <img className={'detail-logo'} src={job.company_logo} />
+                    <img className={'detail-logo'} src={job.company_logo} alt=" " />
                 </DialogTitle>
                 <DialogContent>
                     <DialogContentText 
@@ -42,7 +42,7 @@ export default function JobModal({ job, open, handleClose }) {
                     <Button onClick={handleClose} color="primary">
                         Close
                     </Button>
-                    <a href={job.url} target="_blank">
+                    <a href={job.url} target="_blank" rel="noopener noreferrer">
                         <Button color="primary">
                             Apply
                         </Button>

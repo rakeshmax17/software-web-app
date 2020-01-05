@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import Jobs from './Jobs';
 
-const JOBS_API_URL = 'http://localhost:3001/jobs';
+const JOBS_API_URL = '/api/jobs';
 
 // const mockJobs = [
 //   {title: 'SWE1', company: 'Google'},
